@@ -147,7 +147,7 @@ async def play(client, m: Message):
                 await huehue.delete()
                 # await m.reply_to_message.delete()
                 await m.reply_photo(
-                    photo="https://telegra.ph/file/6213d2673486beca02967.png",
+                    photo="https://telegra.ph/file/a8b43b4043d3fc6822bca.jpg",
                     caption=f"""
 **▶ Playing song
 🏷️ Name: {songname}
