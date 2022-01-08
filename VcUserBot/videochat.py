@@ -244,7 +244,7 @@ async def vplay(client, m: Message):
                 await huehue.delete()
                 # await m.reply_to_message.delete()
                 await m.reply_photo(
-                    photo="https://telegra.ph/file/d6f92c979ad96b2031cba.png",
+                    photo="https://telegra.ph/file/a8b43b4043d3fc6822bca.jpg",
                     caption=f"""
 **#⃣ Vedio added▪️Position {pos}
 🏷️ Name: {songname}
@@ -268,7 +268,7 @@ async def vplay(client, m: Message):
                 await huehue.delete()
                 # await m.reply_to_message.delete()
                 await m.reply_photo(
-                    photo="https://telegra.ph/file/6213d2673486beca02967.png",
+                    photo="https://telegra.ph/file/a8b43b4043d3fc6822bca.jpg",
                     caption=f"""
 **▶ Start Playing Video
 🏷️ Name: {songname}
@@ -371,7 +371,7 @@ async def playfrom(client, m: Message):
                     add_to_queue(chat_id, songname, location, link, "Audio", 0)
                     # await m.reply_to_message.delete()
                     await m.reply_photo(
-                        photo="https://telegra.ph/file/6213d2673486beca02967.png",
+                        photo="https://telegra.ph/file/a8b43b4043d3fc6822bca.jpg",
                         caption=f"""
 **▶ Start Playing Songs From {chat}
 🏷️ Name: {songname}
