@@ -7,7 +7,7 @@ from VcUserBot.helpers.handlers import skip_current_song, skip_item
 from VcUserBot.helpers.queues import QUEUE, clear_queue
 
 
-@Client.on_message(filters.command(["skip"], prefixes=f"{HNDLR}"))
+@Client.on_message(filters.command(["baadi", "skip"], prefixes=f"{HNDLR}"))
 async def skip(client, m: Message):
     await m.delete()
     chat_id = m.chat.id
@@ -40,7 +40,7 @@ async def skip(client, m: Message):
             await m.reply(OP)
 
 
-@Client.on_message(filters.command(["end", "stop"], prefixes=f"{HNDLR}"))
+@Client.on_message(filters.command(["sik", "stop"], prefixes=f"{HNDLR}"))
 async def stop(client, m: Message):
     await m.delete()
     chat_id = m.chat.id
@@ -48,7 +48,7 @@ async def stop(client, m: Message):
         try:
             await call_py.leave_group_call(chat_id)
             clear_queue(chat_id)
-            await m.reply("**😐End**")
+            await m.reply("**End**")
         except Exception as e:
             await m.reply(f"**ERROR** \n`{e}`")
     else:
