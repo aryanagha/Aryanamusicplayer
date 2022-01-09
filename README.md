@@ -1,7 +1,8 @@
 # 📀 𝐕𝐂𝐔𝐬𝐞𝐫𝐁𝐨𝐭
 
 
-
+made for fun
+have a good day
 
 
 # DEPLOY TO HEROKU 
