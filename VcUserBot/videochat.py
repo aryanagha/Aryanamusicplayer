@@ -132,7 +132,8 @@ async def play(client, m: Message):
 **#⃣ Song added▪️Position {pos}
 🏷️ Name: {songname}
 💬 Chat ID: {chat_id}
-🎧 Requested by: {m.from_user.mention}**
+🎧 Requested by: {m.from_user.mention}
+For supporting us you can join @The_Aryana_PY**
 """,
                 )
             else:
@@ -152,7 +153,8 @@ async def play(client, m: Message):
 **▶ Playing song
 🏷️ Name: {songname}
 💬 Chat ID: {chat_id}
-🎧 Requested by: {m.from_user.mention}**
+🎧 Requested by: {m.from_user.mention}
+For supporting us you can join @The_Aryana_PY**
 """,
                 )
 
@@ -249,7 +251,8 @@ async def vplay(client, m: Message):
 **#⃣ Vedio added▪️Position {pos}
 🏷️ Name: {songname}
 💬 Chat ID: {chat_id}
-🎬 Requested by: {m.from_user.mention}**
+🎬 Requested by: {m.from_user.mention}
+For supporting us you can join @The_Aryana_PY**
 """,
                 )
             else:
@@ -376,7 +379,8 @@ async def playfrom(client, m: Message):
 **▶ Start Playing Songs From {chat}
 🏷️ Name: {songname}
 💬 Chat ID: {chat_id}
-🎧 Requested by: {m.from_user.mention}**
+🎧 Requested by: {m.from_user.mention}
+For supporting us you can join @The_Aryana_PY**
 """,
                     )
             await hmm.delete()
